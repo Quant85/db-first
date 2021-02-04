@@ -1,7 +1,7 @@
 
 
-# database name: Biblioteca
-# nome tabelle: Libreria
+# database name: GameStop
+# nome tabelle: Games
 - id BIGINT PRIMARYKEY NOTNULL AUTO_INCREMENT UNIQUE
 - SKU string VARCHAR(10) NOTNULL UNIQUE
 - title string VARCHAR (30) NOTNULL
